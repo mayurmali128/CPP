@@ -48,7 +48,7 @@ cString cString::operator =(cString& s2){
 bool cString::operator ==(cString& s2){
     if(strcmp(this->str,s2.str)==0) return true;
     //else
-    return true;
+    return false;
 }
 char& cString::operator [](int i){
     return str[i];
