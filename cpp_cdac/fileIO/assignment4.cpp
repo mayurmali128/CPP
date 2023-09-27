@@ -49,7 +49,7 @@ void insert(){
     out.close();
 }
 
-Record find_record(int id){
+void find_record(int id){
     Record r;
 
     ifstream in;
